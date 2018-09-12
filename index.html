@@ -1,0 +1,102 @@
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<head>
+  <meta charset="utf-8" lang="en" />
+  <meta name="author" content="Tom Dickman" />
+  <meta name="keywords" content="portfolio web design software development" />
+  <meta name="description" content="The professional web development portfolio of Tom Dickman" />
+  <title>Tom's Tiger Gear</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://use.fontawesome.com/711b479512.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul class="flex-container flex-row">
+        <li><img id="header-img" src="http://res.cloudinary.com/techtiger7/image/upload/v1536729692/FCCProductLanding/tomstigersbanner.png" alt="company logo" /></li>
+        <li class="left-margin" ><a class="nav-link" href="#about-us">about us</a></li>
+        <li><a class="nav-link" href="#product">categories</a></li>
+        <li><a class="nav-link" href="#follow-us">follow us</a></li>
+        <li><a class="nav-link" href="#contact">contact</a></li>
+        <li><img id="product-logo" src="http://res.cloudinary.com/techtiger7/image/upload/v1536729692/FCCProductLanding/tigerlogo.png" alt="logo"/></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="flex-container flex-column">
+    <section id="about-us" class="flex-column-item flex-column-item-gap">
+      <h2>About Me</h2>
+      <p>We sell all things tiger related, if you love tigers as much as we do, you'll love our shop!</p> 
+      <h3 class="summary-tag"><strong>Toys &mdash; Apparel &mdash; Clothing</strong></h3>
+    </section>
+    <section id="product" class="flex-column-item flex-column-item-gap">
+      <h2>Categories</h2>
+      <div class="flex-container flex-row flex-row-align-start">
+        <figure class="flex-row-item md-flex-row-item portfolio-item">
+          <h3>Toys</h3>
+          <a href="#">
+            <img src="https://res.cloudinary.com/techtiger7/image/upload/v1536729695/FCCProductLanding/soft-tiger.jpg" alt="soft toy tiger" />
+          </a>
+          <figcaption>Have a look at our collection of soft toys, perfect for children.</figcaption>
+        </figure>
+        <figure class="flex-row-item md-flex-row-item portfolio-item">
+          <h3>Clothing</h3>
+          <a href="#">
+            <img src="https://res.cloudinary.com/techtiger7/image/upload/v1536729698/FCCProductLanding/tiger-tshirt.jpg" alt="Tiger t-shirt" />
+          </a>
+          <figcaption>Show your love for tigers with these rad tiger duds!</figcaption>
+        </figure>
+        <figure class="flex-row-item md-flex-row-item portfolio-item">
+          <h3>Apparel</h3>
+          <a href="#">
+            <img src="https://res.cloudinary.com/techtiger7/image/upload/v1536729693/FCCProductLanding/tiger-bag.jpg" alt="Tiger bag" />
+          </a>
+          <figcaption>Tiger gear doesn't just have to look cool, it can also be practical.</figcaption>
+        </figure>
+        <div id="save-tigers">
+          <h3>Help save the tigers</h3>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RHcc-jmgyTo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="follow-us" class="flex-column-item flex-column-item-gap">
+      <h2>Follow Us</h2>
+      <div class="flex-container flex-row flex-row-center">
+        <a class="flex-row-item social-media" href="#"><span class="fa fa-instagram big-icon"></span><p>instagram</p></a>
+        <a class="flex-row-item social-media" href="#"><span class="fa fa-facebook big-icon"></span><p>facebook</p></a>
+        <a class="flex-row-item social-media" href="#"><span class="fa fa-twitter-square big-icon"></span><p>twitter</p></a>
+        <a class="flex-row-item social-media" href="#"><span class="fa fa-pinterest big-icon"></span><p>pinterest</p></a>        
+      </div>
+    </section>
+    <section id="contact" class="flex-column-item flex-column-item-gap">
+      <h2>Contact Us</h2>
+      <form id="form" class="flex-container flex-column flex-column-align-stretch" action="https://www.freecodecamp.com/email-submit">
+        <div class="form-group flex-column-item flex-container flex-row flex-row-align-center">
+          <label for="us" class="flex-row-item">Name:</label>
+          <input class="form-control flex-row-item" name="name" type="text" placeholder="firstname surname" pattern="\w{1,40} \w{0,40}"></input>
+        </div>
+        <div class="form-group flex-column-item flex-container flex-row flex-row-align-center">
+          <label for="email" class="flex-row-item">Email:</label>
+          <input id="email" class="form-control" name="email" type="email" placeholder="email address"></input>
+        </div>
+        <div class="form-group flex-column-item flex-container flex-row flex-row-align-center">
+          <label for="phone" class="flex-row-item">Phone:</label>
+          <input id="phone" class="form-control flex-row-item" name="phone" type="text" placeholder="contact number" pattern="[\d+]{7,12}"></input>
+        </div>
+        <div class="form-group flex-column-item flex-container flex-column flex-column-align-stretch">
+          <label for="message" class="flex-column-item">Message:</label>
+          <textarea id="message" class="form-control flex-column-item" name="details" row="20" columns="200" placeholder="You're message here"></textarea>
+        </div>
+        <input id="submit" type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p class="text-align-center padding-top" ><a href="https://www.freecodecamp.com/email-submit">Tom's Tiger Gear</a></p>
+  </footer>
+</body>
+    
+
+  
+
+  
